@@ -438,18 +438,21 @@ I don't have an degree to show about this things.🥹
             </footer>             
             <!-- Bottom Nav for Mobile -->             
             <div class="md:hidden fixed bottom-0 left-0 w-full glass-card p-4 z-50 flex justify-around items-center rounded-t-xl border-t border-white/5"> 
-                <button class="flex flex-col items-center gap-1 text-slate-500"> 
-                    <span class="material-symbols-outlined" data-icon="home">home</span> 
-                    <span class="text-[10px] font-label uppercase">Home</span> 
-                </button>                 
-                <button class="flex flex-col items-center gap-1 text-slate-500"> 
-                    <span class="material-symbols-outlined" data-icon="psychology">psychology</span> 
-                    <span class="text-[10px] font-label uppercase">Skills</span> 
-                </button>                 
-                <button class="flex flex-col items-center gap-1 text-cyan-400"> 
-                    <span class="material-symbols-outlined" data-icon="military_tech" style="font-variation-settings: 'FILL' 1;">military_tech</span> 
-                    <span class="text-[10px] font-label uppercase">Certs</span> 
-                </button>                 
+                <a href="/portfolio" class="flex flex-col items-center gap-1 text-slate-500">
+        <span class="material-symbols-outlined">home</span>
+        <span class="text-[10px] font-label uppercase">Home</span>
+    </a>
+
+    <a href="/portfolio/skills" class="flex flex-col items-center gap-1 text-slate-500">
+        <span class="material-symbols-outlined">psychology</span>
+        <span class="text-[10px] font-label uppercase">Skills</span>
+    </a>
+
+    <a href="/portfolio/certifications" class="flex flex-col items-center gap-1 text-cyan-400">
+        <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">military_tech</span>
+        <span class="text-[10px] font-label uppercase">Certs</span>
+    </a>
+  
             </div>             
             <script type="module">
     import { supabase } from '/portfolio/js/supabase.js';
